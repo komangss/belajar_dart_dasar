@@ -12,6 +12,7 @@ class Person {
   // }
 
   // GOOD
+  // this called Formal parameter
   Person(this.name, this.address);
 }
 
