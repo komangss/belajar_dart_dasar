@@ -13,6 +13,11 @@ class VicePresident extends Manager {
   void sayHello(String name) {
     print('Holla, Lorem Ipsum $name, ${this.name}');
   }
+
+  void sayHelloWithParentName() {
+    // to use parent field that already get overriding, we can use 'super' keyword to access parent class field
+      print('Holla parent name ${super.name}, current child name is $name');
+    }
 }
 
 void main() {
@@ -21,4 +26,5 @@ void main() {
 
   var vp = VicePresident();
   vp.sayHello('Gede');
+  vp.sayHelloWithParentName(); 
 }
