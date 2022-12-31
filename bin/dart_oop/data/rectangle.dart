@@ -1,10 +1,13 @@
 // encapsulation
 // mean we protect sensitive data to can't be accessed outside ( or without using validation)
 // encaptulation process already have a standard called 'Getter and Setter'
+
+// actually getter and setter is not needed if the field is simple
+// check this article https://dart-lang.github.io/linter/lints/unnecessary_getters_setters.html 
 class Rectangle {
 
   int _width = 1;
-  int _length = 1;
+  int _height = 1;
 
   // to use getter, we can use 'get' keyword
   int get width => _width;
@@ -16,11 +19,11 @@ class Rectangle {
     }
   }
 
-  int get length => _length;
+  int get height => _height;
 
-  set length(int value){
+  set height(int value){
     if(value >= 1){
-      _length = value;
+      _height = value;
     }
   }
 
