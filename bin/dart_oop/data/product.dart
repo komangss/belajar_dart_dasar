@@ -10,6 +10,8 @@ class Product {
     return _quantity;
   }
 
+  // by default Object class have toString method
+  // this to String method is actually overrided from 'Object' class
   String toString(){
     return "Product{id=$id, name=$name, quantity=$_quantity}";
   }
