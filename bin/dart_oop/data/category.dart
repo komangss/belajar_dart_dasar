@@ -3,7 +3,8 @@ class Category {
   String name;
 
   Category(this.id, this.name);
-
+// by default we have equal operator in object dart
+// default is compare memory location of the object
 bool operator ==(Object other) {
     if (other is Category) {
       if (id != other.id) {
@@ -18,6 +19,9 @@ bool operator ==(Object other) {
     }
   }
 
+// by default we have hashcode in dart
+// hashCode is int, means this is unique identifier in dart
+// by default hash code returning the data based on memory
   int get hashCode {
     var result = id.hashCode;
     result += name.hashCode;
