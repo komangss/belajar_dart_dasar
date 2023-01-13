@@ -9,5 +9,5 @@ void main() {
   print(data.data);
 
   // the problem is when we change the data : see below
-  data.data = 100; // THIS WOULD BE ERROR ON RUNTIME
+  data.data = 100; // THIS WOULD BE ERROR ON RUNTIME : _TypeError (type 'int' is not a subtype of type 'String' of 'value')
 }
