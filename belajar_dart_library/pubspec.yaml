@@ -1,7 +1,6 @@
 name: belajar_dart_library
-description: A starting point for Dart libraries or applications.
+description: Learning dart library from 'Programmer Zaman Now' youtube channel.
 version: 1.0.0
-# homepage: https://www.example.com
 
 environment:
   sdk: '>=2.18.5 <3.0.0'
@@ -9,6 +8,7 @@ environment:
 # dependencies:
 #   path: ^1.8.0
 
+# note : this dependency is only for development
 dev_dependencies:
   lints: ^2.0.0
   test: ^1.16.0
