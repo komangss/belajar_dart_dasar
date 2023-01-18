@@ -13,7 +13,7 @@ dependencies:
   belajar_dart_library:
     git:
       url: git@github.com:komangss/belajar_dart_library.git
-      ref: 1.0.0 # branch or tag
+      ref: 1.2.0 # branch or tag
 
 dev_dependencies:
   lints: ^2.0.0
