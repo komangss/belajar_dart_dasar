@@ -1,3 +1,7 @@
-int calculate() {
-  return 6 * 7;
+import 'package:belajar_dart_library/hello.dart';
+
+void main(List<String> args) {
+  print(sayHello("Anton"));
+
+  var customer = Customer();
 }

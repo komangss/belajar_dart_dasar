@@ -29,6 +29,15 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.10.0"
+  belajar_dart_library:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: "1.0.0"
+      resolved-ref: "04a118529339ff83d825da20aa166aa781a82308"
+      url: "git@github.com:komangss/belajar_dart_library.git"
+    source: git
+    version: "1.0.0"
   boolean_selector:
     dependency: transitive
     description:

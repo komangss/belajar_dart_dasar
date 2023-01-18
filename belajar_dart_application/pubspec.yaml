@@ -6,8 +6,14 @@ version: 1.0.0
 environment:
   sdk: '>=2.18.5 <3.0.0'
 
-# dependencies:
-#   path: ^1.8.0
+publish_to: none # must publish to none if using git : Publishable packages can't have 'git' dependencies.
+
+# use ``dart pub get`` to download dependencies we defined
+dependencies:
+  belajar_dart_library:
+    git:
+      url: git@github.com:komangss/belajar_dart_library.git
+      ref: 1.0.0 # branch or tag
 
 dev_dependencies:
   lints: ^2.0.0

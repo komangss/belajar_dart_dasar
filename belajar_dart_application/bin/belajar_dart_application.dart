@@ -1,5 +1,5 @@
-import 'package:belajar_dart_application/belajar_dart_application.dart' as belajar_dart_application;
+import 'package:belajar_dart_library/hello.dart';
 
-void main(List<String> arguments) {
-  print('Hello world: ${belajar_dart_application.calculate()}!');
+void main(List<String> args) {
+  print(sayHello("Anton"));
 }
