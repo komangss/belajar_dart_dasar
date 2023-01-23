@@ -2,7 +2,7 @@
 # File for one project for all test will be configured here
 
 # for example we can execute the test only in mac os
-test_on: 'windows' # Warning: this package doesn't support running tests on OS X.
+test_on: 'mac-os ' # Warning: this package doesn't support running tests on OS X.
 
 # test with tag aky will be skipped 
 tags:
