@@ -56,5 +56,13 @@ void main() {
 
       verify(bookRepository.findById(any)).called(1);
      });   
+
+
+
+     // BEST PRACTICE MOCK OBJECT
+     // Testing with real object is better than using mock object
+     // when we creating real object, better to use real object instead of the mocks
+     // USE Mock object only when we cannot create the real object in unit test
+     // IF we need mock object, always verify interaction of the mock object (use when, then, verify, called)
   });
 }
